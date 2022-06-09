@@ -15,11 +15,30 @@ body {
   border-radius: 50px;
   overflow: auto;
 }
-.output {
+.screen {
   background-color: black;
   width: 350px;
   height: 150px;
   margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10x;
+}
+.screenup {
+  background-color: black;
+  width: 350px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
+}
+.screendown {
+  background-color: black;
+  width: 350px;
+  height: 60px;
+  margin: 5px;
+  padding: 10px;
 }
 .group1 {
   margin-top: 19px;
